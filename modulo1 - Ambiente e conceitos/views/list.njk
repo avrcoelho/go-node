@@ -1,0 +1,10 @@
+<h1>Listagem de usuários</h1>
+
+<ul>
+  {# usa isso {% %} quando for fazer repetição ou condicional #}
+  {% for user in users %}
+    <li>{{user}}</li>
+  {% endfor %}
+</li>
+
+<a href="/new">Cadastrar usuário</a>

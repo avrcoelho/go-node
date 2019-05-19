@@ -1,0 +1,12 @@
+# arquivo incial do editor config
+root = true
+
+# para todos os tipos de arquivos
+[*]
+indent_style = space
+indent_size = 2
+charset = utf-8
+# remove espaçõs em branco no final da linha
+trim_trailing_whitespace = true
+# insere linha em branco no final do arquivo
+insert_final_newline = true
